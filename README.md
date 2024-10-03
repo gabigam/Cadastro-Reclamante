@@ -12,9 +12,9 @@ O projeto **Cadastro-Reclamante** é uma aplicação React que permite o registr
 ## Funcionalidades
 
 - Validação de entrada para:
-  - Nome: Deve conter apenas letras.
-  - E-mail: Deve terminar com `ufs.br`.
-  - Senha: Deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula e um símbolo.
+  - **Nome**: Deve conter apenas letras.
+  - **E-mail**: Deve terminar com `ufs.br`.
+  - **Senha**: Deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula e um símbolo.
 - Mensagens de erro exibidas em tempo real.
 - Mensagem de sucesso após cadastro.
 
@@ -22,8 +22,8 @@ O projeto **Cadastro-Reclamante** é uma aplicação React que permite o registr
 
 ### Pré-requisitos
 
-- Node.js instalado
-- npm (gerenciador de pacotes do Node.js)
+- **Node.js** instalado
+- **npm** (gerenciador de pacotes do Node.js)
 
 ### Passos para Instalação
 
@@ -31,3 +31,26 @@ O projeto **Cadastro-Reclamante** é uma aplicação React que permite o registr
 
    ```bash
    git clone https://github.com/gabigam/cadastro-reclamante.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd cadastro-reclamante
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm start
+   ```
+
+Agora você pode acessar a aplicação no seu navegador, geralmente em [http://localhost:3000](http://localhost:3000).
+```
+
